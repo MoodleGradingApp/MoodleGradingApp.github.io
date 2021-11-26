@@ -1,1 +1,137 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moodle Grading App</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/27faabb5b6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+            <a href="#section-vision">Vision</a>
+            <a href="#section-team">Team</a>
+            <a href="#section-report">Report</a>
+            </nav>
+            <h1>Moodle Grading App</h1>
+            <h3>Summer 2021 - Fall 2021</h3>
+            <li>
+                <a class="codebase" target="_blank" href="https://github.com/MoodleGradingApp/Client">
+                    <i class="fas fa-link"></i>
+                    <span>Codebase</span>
+                </a>
+            </li>
+        </header>
+        <section id="section-vision" class="section section-vision">
+            <div class="section-header">
+                <h2>Vision</h2>
+            </div>
+            <div class="section-content">
+                <p>
+                    Grading is already a time consuming and redundant task, and Moodle’s user 
+                    interface doesn’t aid in making the grading process more efficient. When 
+                    a professor or grader wants to grade an assignment, you can either enter 
+                    the feedback directly into Moodle or download a CSV file, enter the 
+                    feedback, and then reupload it. One issue with both of these methods is 
+                    that the feedback has to be manually entered each time, and the same 
+                    feedback is often repeated on numerous student submissions. Another issue, 
+                    when entering feedback into the CSV file, is that you have to fit all the 
+                    feedback into one line in a single cell. And, if a grader decides to change 
+                    the number of points taken off for a specific mistake, they have to manually 
+                    go back and change all of the scores for that specific mistake. This is an 
+                    important issue to be addressed because the less time professors and graders 
+                    spend grading, the more time they have available to help students, replying 
+                    to emails, and other important tasks. 
+                    <br><br>
+                    With our application, a student grader or professor would download an 
+                    assignment’s CSV file from Moodle, upload it, and then our app will parse 
+                    through the file to get all of the students’ information. The application 
+                    will display a full chart of the students’ full name, their Calvin email, 
+                    their grade for the assignment, and the feedback. The CSV file does provide 
+                    an image URL of each student, but we have decided to omit this information 
+                    from our application to promote objective grading. The grader can proceed 
+                    through the list of students, entering a string of feedback, and the value 
+                    of the deduction. All of the feedback strings and their point values will 
+                    be stored into a saved list. Using this list, a grader can then just check 
+                    off the feedback that applies to each student’s submission. This eliminates 
+                    the redundancy of typing in the same feedback for multiple students, through 
+                    selecting the relevant custom feedback. Our application will also keep track 
+                    of the feedback given to each student, so if the grader modifies the custom 
+                    feedback or the deduction value, if saved, the change will be reflected globally. 
+                    Finally, the application will also display assignment statistics: the frequency 
+                    of each feedback, the average score, standard deviation, median, and mode. 
+                    Once an assignment has been graded, the grader can then export the modified 
+                    CSV file and upload it to Moodle. 
+                </p>
+            </div>
+        </section>
+        <section id="section-team" class="section section-team">
+            <div class="section-header">
+                <h2>Team</h2>
+            </div>
+            <div class="section-content">
+                <h4>Emily Costa</h4>
+                <p>
+                    Emily is a BCS student from Pittsburgh, PA. Currently, Emily is a Software 
+                    Associate at Michigan Software Labs, in Ada, where she has worked on Android 
+                    and web development. Postgrad, Emily plans on working in industry before 
+                    heading to graduate school to get a PhD in Computer Science.
+                </p>
+                <h4>Michael Sisko</h4>
+                <p>
+                    Michael is a BCS student from northern suburbs of Chicago, IL. In Michael's 
+                    time at Calvin, he ran Cross Country and Track & Field. On graduation, Michael 
+                    will work in System Administration at Harvest Bible Chapel, in Elgin, IL. 
+                    Michael plans to work in industry for a few years before getting his MBA.
+                </p>
+            </div>
+        </section>
+        <section id="section-report" class="section section-report">
+            <div class="section-header">
+                <h2>Report</h2>
+            </div>
+            <div class="section-content">
+                <li>
+                    <a class="report-link" target="_blank" href="https://github.com/MoodleGradingApp/Client">
+                        <i class="fas fa-link"></i>
+                        <span>Codebase</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="report-link" target="_blank" href="">
+                        <i class="fas fa-link"></i>
+                        <span>Report</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="report-link" target="_blank" href="https://docs.google.com/document/d/1clsnuWxa1RFqpnDO3royWjP6fYfnoRhbTMukohIjvCQ/edit?usp=sharing">
+                        <i class="fas fa-link"></i>
+                        <span>Proposal</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="report-link" target="_blank" href="https://docs.google.com/presentation/d/1rduU77iQQpYNiesxn21jFxOGC5b1oKXVyEcmawfPX9g/edit?usp=sharing">
+                        <i class="fas fa-link"></i>
+                        <span>Status Report Presentation</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="report-link" target="_blank" href="https://docs.google.com/presentation/d/1QR46dCs6j0CFr4Ed8I813IHyMgThRDdKOxZzRFw-sfo/edit?usp=sharing">
+                        <i class="fas fa-link"></i>
+                        <span>Final Presentation</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="report-link" target="_blank" href="https://computing.calvin.edu/">
+                        <i class="fas fa-link"></i>
+                        <span>Calvin CS Department</span>
+                    </a>
+                </li>
+            </div>
+        </section>
+          
+        <a href="#top" class="top">TOP</a>
+
+    </body>
+</html>
+
